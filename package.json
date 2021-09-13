@@ -1,0 +1,32 @@
+{
+  "name": "building-website-nodejs",
+  "version": "1.0.0",
+  "description": "website for course Building a Website with Node.js and Express.js for linkedin",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node -e js",
+    "dev": "nodemon --ignore feedback.json server.js"
+  },
+  "author": "Carlos Garza",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-session": "^1.4.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "http-errors": "^1.8.0",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.3.2"
+  }
+}
